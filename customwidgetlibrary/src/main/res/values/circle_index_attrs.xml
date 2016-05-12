@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleIndexView">
+        <attr name="foreColor" format="color"/>
+        <attr name="index" format="string"/>
+        <attr name="textSize" format="dimension"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".demos.CircleIndexActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:text="1. 默认情况"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:gravity="center_vertical">
+
+        <org.lynxz.customwidgetlibrary.CircleIndexView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:index="1"/>
+
+        <org.lynxz.customwidgetlibrary.CircleIndexView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:index="11"/>
+
+        <org.lynxz.customwidgetlibrary.CircleIndexView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:index="416"/>
+
+
+        <org.lynxz.customwidgetlibrary.CircleIndexView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:index="a"/>
+
+        <org.lynxz.customwidgetlibrary.CircleIndexView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:index="A"/>
+
+        <org.lynxz.customwidgetlibrary.CircleIndexView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:index="H"/>
+
+        <org.lynxz.customwidgetlibrary.CircleIndexView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:index="AB"/>
+
+        <org.lynxz.customwidgetlibrary.CircleIndexView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:index="一"/>
+
+        <org.lynxz.customwidgetlibrary.CircleIndexView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:index="Ⅱ"/>
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="10dp"
+        android:text="2. 设置属性:颜色-字体大小"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+        <org.lynxz.customwidgetlibrary.CircleIndexView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:foreColor="#f00"
+            app:index="1"/>
+
+        <org.lynxz.customwidgetlibrary.CircleIndexView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:foreColor="#f00"
+            app:index="我"/>
+
+        <org.lynxz.customwidgetlibrary.CircleIndexView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:foreColor="#0f0"
+            app:index="10"
+            app:textSize="40sp"/>
+
+        <org.lynxz.customwidgetlibrary.CircleIndexView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:foreColor="#00f"
+            app:index="你好啊"
+            app:textSize="40sp"/>
+    </LinearLayout>
+
+</LinearLayout>
