@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="StepView">
+        <!-- 进度未完成时线条颜色 -->
+        <attr name="unfinish_color" format="color"/>
+        <attr name="finish_color" format="color"/>
+        <attr name="step_count" format="integer"/>
+        <attr name="current_progress" format="integer"/>
+        <attr name="circle_radius" format="dimension"/>
+        <attr name="done_bitmap" format="reference"/>
+
+        <!-- 圆圈中间显示步骤序号 -->
+        <attr name="show_progress_number" format="boolean"/>
+
+        <!-- todo: 显示步骤名称 -->
+    </declare-styleable>
+</resources>

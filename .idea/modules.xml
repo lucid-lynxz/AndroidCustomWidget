@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AndroidCustomWidget.iml" filepath="$PROJECT_DIR$/AndroidCustomWidget.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/customstepviewlibrary/customstepviewlibrary.iml" filepath="$PROJECT_DIR$/customstepviewlibrary/customstepviewlibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/customwidgetlibrary/customwidgetlibrary.iml" filepath="$PROJECT_DIR$/customwidgetlibrary/customwidgetlibrary.iml" />
     </modules>
   </component>

@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import org.lynxz.customwidget.demos.CircleIndexActivity;
+import org.lynxz.customwidget.demos.StepViewActivity;
 
 public class MainActivity extends BaseActivity implements View.OnClickListener {
 
@@ -14,6 +15,7 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
         setContentView(R.layout.activity_main);
 
         findView(R.id.btn1).setOnClickListener(this);
+        findView(R.id.btn2).setOnClickListener(this);
     }
 
     @Override
@@ -23,6 +25,9 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
         switch (id) {
             case R.id.btn1:
                 intent = new Intent(this, CircleIndexActivity.class);
+                break;
+            case R.id.btn2:
+                intent = new Intent(this, StepViewActivity.class);
                 break;
         }
 

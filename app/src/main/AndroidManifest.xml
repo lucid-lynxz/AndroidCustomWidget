@@ -17,6 +17,8 @@
         </activity>
         <activity android:name=".demos.CircleIndexActivity">
         </activity>
+        <activity android:name=".demos.StepViewActivity">
+        </activity>
     </application>
 
 </manifest>
